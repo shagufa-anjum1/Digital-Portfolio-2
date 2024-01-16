@@ -37,4 +37,18 @@
     gap: 2rem;
     padding: 0 4em;
 }
+.nav-items div{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-items div a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.nav-items div:hover{
+    font-weight: bold;
+}
 

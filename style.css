@@ -5,15 +5,21 @@
     box-sizing: border-box;
     font-family: monospace;
 }
+:root{
+    --bg0range:#e84949;
+}
+/*------------------------------------------------------- Wrapper -----------------------------------------------------------------*/
 .wrapper{
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
 }
+/*-------------------------------------------------------- Container----------------------------------------------------------------- */
 .container{
     width: 1200px;
     margin: 0 auto;
 }
+/* --------------------------------------------------------Navbar-div----------------------------------------------------------------- */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -21,7 +27,7 @@
     padding-top: 1rem;
 }
 .logo{
-    width: 80px;
+    width: 70px;
     
 }
 .logo-container{

@@ -8,18 +8,24 @@
 :root{
     --bg0range:#e84949;
 }
+
 /*------------------------------------------------------- Wrapper -----------------------------------------------------------------*/
+
 .wrapper{
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
 }
+
 /*-------------------------------------------------------- Container----------------------------------------------------------------- */
+
 .container{
     width: 1200px;
     margin: 0 auto;
 }
+
 /* --------------------------------------------------------Navbar-div----------------------------------------------------------------- */
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -62,7 +68,9 @@ a{
     transition: 0.8s;
     font-weight: bold;
 }
+
 /*----------------------------------------- Hero-section-------------------------------------------- */
+
 .hero-section{
     position: relative;
     display: flex;
@@ -81,5 +89,14 @@ a{
     left: -5%;
     font-weight: bold;
     transition: all 3s;
+}
+
+/*------------------------------------------- Hero section of Left Part------------------------------------------------------ */
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 

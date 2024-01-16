@@ -62,4 +62,8 @@ a{
     transition: 0.8s;
     font-weight: bold;
 }
+/*----------------------------------------- Hero-section-------------------------------------------- */
+.hero-section{
+    position: relative;
+}
 

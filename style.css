@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
 }
 .wrapper{
     height: 100vh;
@@ -30,6 +32,7 @@
 .logo-text{
     margin-left: -0.4rem;
     font-size: 28px;
+    font-weight: 500;
     
 }
 .nav-items{
@@ -41,6 +44,7 @@
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+
 }
 .nav-items div a{
     color: black;
@@ -49,6 +53,7 @@ a{
     text-decoration: none;
 }
 .nav-items div:hover{
+    transition: 0.8s;
     font-weight: bold;
 }
 

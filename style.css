@@ -184,4 +184,24 @@ a{
     }
     
 }
+.icon-dots{
+    z-index: 9;
+    bottom: -3rem;
+    right: 0;
+    animation: dotAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes dotAnimation {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px); 
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
 

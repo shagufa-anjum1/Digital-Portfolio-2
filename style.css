@@ -259,4 +259,20 @@ a{
     
     
 }
+.icon-plus{
+    z-index: 9;
+    top: -0.8rem;
+    left: 50%;
+    animation-name: plusAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes plusAnimation {
+    50%{
+        top: 3%;
+        left: 48%;
+
+    }
+}
 

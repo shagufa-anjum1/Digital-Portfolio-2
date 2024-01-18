@@ -230,16 +230,33 @@ a{
     z-index: 9;
     bottom: 0;
     left: 0;
-    animation-name: shakeEffect;
+    animation-name: circleAnimation;
     animation-duration: 6s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-@keyframes shakeEffect {
+@keyframes circleAnimation {
     50%{
         left: 5%;
         bottom: 10%;
     }
+    
+}
+.icon-zigzag{
+    z-index: 9;
+    top: 1.5em;
+    left: -0.3em;
+    animation-name: zigzagAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes zigzagAnimation {
+    50%{
+        left: 6%;
+        top: 2%;
+    }
+    
     
 }
 

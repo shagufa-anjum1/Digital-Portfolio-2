@@ -367,5 +367,12 @@ a{
     right: 10%;
 }
 .project-skills-container{
-    
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.project-skill{
+    width: 40px;
+     
 }

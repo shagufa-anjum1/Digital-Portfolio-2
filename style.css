@@ -33,7 +33,7 @@
     padding-top: 1rem;
 }
 .logo{
-    width: 70px;
+    width: 60px;
     
 }
 .logo-container{
@@ -146,5 +146,18 @@ a{
 }
 .btn-pink:hover::before{
     transform: scaleX(1);
+}
+/*------------------------------------------------------- Right Part of Hero Section------------------------------------------------- */
+.hero-section-right{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.user-image{
+    padding: 2.5rem;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: scaleImage 5s linear infinite;
 }
 

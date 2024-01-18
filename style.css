@@ -98,5 +98,11 @@ a{
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
+    
+}
+.hero-section-heading{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
 }
 

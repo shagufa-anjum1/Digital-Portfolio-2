@@ -341,3 +341,7 @@ a{
     color: white;
     z-index: 10;
 }
+.project-number-left{
+    right: -40px;
+    top: -45px;
+}

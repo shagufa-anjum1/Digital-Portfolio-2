@@ -376,3 +376,13 @@ a{
     width: 40px;
      
 }
+.project-heading{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.project-subHeading{
+    width: 70%;
+    font-size: 16px;
+    font-style: italic;
+}

@@ -386,3 +386,17 @@ a{
     font-size: 16px;
     font-style: italic;
 }
+.btn-grp{
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+}
+.btn-project{
+    height: 40px;
+    width: 150px;
+    align-items: center;
+}
+.btn-project:hover{
+    border: none;
+
+}

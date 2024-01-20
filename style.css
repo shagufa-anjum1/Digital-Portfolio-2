@@ -340,6 +340,12 @@ a{
     color: rga(255, 255, 255);
     color: white;
     z-index: 10;
+    /* display: none; */
+    opacity: 0;
+}
+.project-card:hover .project-number{
+    /* display: block; */
+    opacity: 1;
 }
 .project-number-left{
     right: -40px;
@@ -361,10 +367,10 @@ a{
     transition: all 0.4s;
 }
 .project-content-left{
-    left: 10%;
+    left: 20%;
 }
 .project-content-right{
-    right: 10%;
+    right: 5%;
 }
 .project-skills-container{
     width: 60%;
@@ -402,4 +408,11 @@ a{
     cursor: pointer;
     color: white;
     font-size: 35px;
+    transition: all 0.4s;
+}
+.icon:hover{
+    color: var(--bg0range);
+}
+.project-content:hover{
+    transform: scale(1.1);
 }

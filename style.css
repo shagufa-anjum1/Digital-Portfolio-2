@@ -367,10 +367,10 @@ a{
     transition: all 0.4s;
 }
 .project-content-left{
-    left: 20%;
+    left: 22%;
 }
 .project-content-right{
-    right: 5%;
+    right: 3%;
 }
 .project-skills-container{
     width: 60%;
@@ -413,6 +413,23 @@ a{
 .icon:hover{
     color: var(--bg0range);
 }
-.project-content:hover{
-    transform: scale(1.1);
+.project-card:hover .project-content{
+    transform: scale(1.2);
+}
+#project1{
+    background-image: url(project/Project1.png);
+}
+#project2{
+    margin-left: 120px;
+    background-image: url(project/Project2.png);
+}
+#project3{
+    background-image: url(project/Project3.png);
+}
+#project4{
+    margin-left: 120px;
+    background-image: url(project/Project4.png);
+}
+@media (max-width:1300px){
+    page
 }

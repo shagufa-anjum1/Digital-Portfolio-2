@@ -396,6 +396,10 @@ a{
     width: 150px;
     align-items: center;
 }
-..btn-project:hover{
+.btn-project:hover{
     border: none;
+}.icon{
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
 }

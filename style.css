@@ -111,7 +111,7 @@ a{
     line-height: 45px;
 }
 .role{
-    color: #4e45d5;
+    color: var(--bg0range);
     font-weight: 800;
 }
 .hero-section-description{
@@ -491,3 +491,26 @@ a{
 }
 
 /*---------------------------------------------------------------- Skills-Container ----------------------------------------------*/
+
+.skills-container{
+    position: relative;
+    display: flex;
+    padding: 5rem;
+    margin: 10rem auto;
+    gap: 30px;
+}
+.skill-container-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.skill-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    position: relative;
+    gap: 2rem;
+}
+.skill-fade-text{
+    
+}

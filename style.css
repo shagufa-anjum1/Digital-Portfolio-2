@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     font-family: monospace;
 }
 :root{
@@ -507,7 +507,7 @@ a{
 .skill-container-right{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 50%;
     position: relative;
     gap: 2rem;
     justify-content: center;
@@ -520,7 +520,7 @@ a{
     bottom: -34.5%;
     right: -25%;
     user-select: none;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .blob-style{
     position: absolute;
@@ -557,6 +557,8 @@ a{
     width: 85%;
     text-align: justify;
 }
-..skill-subHeading p{
+.skill-subHeading p{
     margin: 15px 0;
+    font-weight: 800;
+    font-size: 15px;
 }

@@ -510,7 +510,21 @@ a{
     width: 50%;
     position: relative;
     gap: 2rem;
+    justify-content: center;
 }
 .skill-fade-text{
-    
+    position: absolute;
+    font-size: 15em;
+    font-style: bold;
+    color: rgb(231, 231, 231);
+    bottom: -34.5%;
+    right: -25%;
+    user-select: none;
+    /* overflow-y: hidden; */
+}
+.blob-style{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: blobAnimation 3s linear infinite;
 }

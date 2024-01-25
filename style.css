@@ -570,3 +570,20 @@ a{
     background-color: rgb(231, 231, 231);
 
 }
+.contactus-heading{
+    font-size: 5em;
+    color: var(--bg0range);
+    padding-top: 2rem;
+}
+.contactus-subHeading{
+    font-size: 3em;
+    color: #343d68aa;
+    text-transform: capitalize;
+}
+.contactus-form-container{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

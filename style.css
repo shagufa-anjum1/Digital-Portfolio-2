@@ -562,3 +562,11 @@ a{
     font-weight: 800;
     font-size: 15px;
 }
+
+/*----------------------------------------------------------------- contactus-form-container ------------------------------------------*/
+
+.contactus-form-container{
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+
+}

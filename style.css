@@ -623,3 +623,20 @@ a{
     padding: 0 1rem;
     font-size: 1.5rem;
 }
+
+/*--------------------------------------------------------------------- Footer------------------------------------------------------ */
+
+.footer{
+    position: relative;
+    margin-top: -1px;
+    background-color: #343d68;
+    padding: 5rem;
+
+}
+.footer-wrapper{
+    display: flex;
+    gap: 1rem;
+    padding: 1.2rem;
+    justify-content: space-between;
+    align-items: center;
+}
